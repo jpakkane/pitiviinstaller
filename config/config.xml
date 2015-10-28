@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>PiTiVi Video Editor</Name>
+    <Version>1.0.0</Version>
+    <Title>PiTiVi Video Editor Installer</Title>
+    <Publisher>PiTiVi development team</Publisher>
+    <StartMenuDir>Pitivi</StartMenuDir>
+    <TargetDir>@HomeDir@/pitivibundle</TargetDir>
+</Installer>
