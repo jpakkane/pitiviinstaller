@@ -6,4 +6,6 @@
     <Publisher>PiTiVi development team</Publisher>
     <StartMenuDir>Pitivi</StartMenuDir>
     <TargetDir>@HomeDir@/pitivibundle</TargetDir>
+    <MaintenanceToolName>pitiviMaintenanceTool</MaintenanceToolName>
+    <RunProgram>@TargetDir@/AppRun</RunProgram>
 </Installer>
