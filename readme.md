@@ -31,7 +31,7 @@ Pitivi daily build into `packages/org.pitivi.pitivi/data`. Update
 version numbers and dates in `config/config.xml` and
 `packages/org.pitivi.pitivi/meta/package.xml`.
 
-Update repository url in the package file so it points to the
+Update repository url in `package.xml` so it points to the
 architecture you are building on (linux-64 or linux-32).
 
 Build the online installer and repository:
