@@ -26,7 +26,9 @@ Then build the deps (building Qt takes a long time):
     ../src/sdk-build-tools/buildqt5.sh -s
     ../src/sdk-build-tools/buildifw.sh
 
-Then cd into the directory that contains this file. Put the newest
+## Building the installer
+
+Check out a fresh copy of this repo and dd into it. Put the newest
 Pitivi daily build into `packages/org.pitivi.pitivi/data`. Update
 version numbers and dates in `config/config.xml` and
 `packages/org.pitivi.pitivi/meta/package.xml`.
