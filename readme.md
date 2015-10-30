@@ -41,5 +41,5 @@ Build the online installer and repository:
     ~/invariant/ifw-build-2.0.1/bin/repogen -p packages linux-64
 
 Now you are done. Replace the installer binaries and linux-32 and
-linux-64 directories on the web server. Now users will see the updates
+linux-64 directories on the web server. Users will see the updates
 when they run the maintenance tool.
