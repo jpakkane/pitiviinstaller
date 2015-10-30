@@ -4,6 +4,8 @@
     <Description>PiTiVi video editor.</Description>
     <Version>1.0.0-1</Version>
     <ReleaseDate>2015-10-28</ReleaseDate>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Script>installscript.qs</Script>
     <Licenses>
         <License name="LGPL 2.1" file="license.txt" />
     </Licenses>
