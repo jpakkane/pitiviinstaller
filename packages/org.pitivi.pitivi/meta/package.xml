@@ -10,4 +10,9 @@
         <License name="LGPL 2.1" file="license.txt" />
     </Licenses>
     <Default>true</Default>
+    <RemoteRepositories>
+        <Repository>
+            <Url>http://pitivi.ecchi.ca/bundles/repository/linux-64</Url>
+        </Repository>
+    </RemoteRepositories>
 </Package>
