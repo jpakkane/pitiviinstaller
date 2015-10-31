@@ -20,7 +20,7 @@ Download and extract the sources:
     cd ~/invariant
     ../src/sdk-build-tools/setup-buildenv.py
 
-Then build the deps (building Qt takes a long time):
+Then build the deps (building Qt takes a while so be prepared):
 
     ../src/sdk-build-tools/buildicu.sh
     ../src/sdk-build-tools/buildqt5.sh -s
