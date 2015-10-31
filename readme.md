@@ -26,6 +26,11 @@ Then build the deps (building Qt takes a long time):
     ../src/sdk-build-tools/buildqt5.sh -s
     ../src/sdk-build-tools/buildifw.sh
 
+These scripts print their configure status and want you to accept it
+with pressing `y`and `enter` before starting compilations.. If you
+want to run them headless, add a `-y` argument, which causes them to
+skip the verification step.
+
 ## Building the installer
 
 Check out a fresh copy of this repo and cd into it. Put the newest
