@@ -27,15 +27,18 @@ Then build the deps (building Qt takes a long time):
     ../src/sdk-build-tools/buildifw.sh
 
 These scripts print their configure status and want you to accept it
-with pressing `y`and `enter` before starting compilations.. If you
+with pressing `y`and `enter` before starting compilations. If you
 want to run them headless, add a `-y` argument, which causes them to
 skip the verification step.
 
 ## Building the installer
 
-Check out a fresh copy of this repo and cd into it. Put the newest
-Pitivi daily build into `packages/org.pitivi.pitivi/data`. Update
-version numbers and dates in `config/config.xml` and
+Check out a fresh copy of this repo and cd into it.
+
+Put the newest Pitivi daily build into
+`packages/org.pitivi.pitivi/data`.
+
+Update version numbers and dates in `config/config.xml` and
 `packages/org.pitivi.pitivi/meta/package.xml`.
 
 Update repository url in `package.xml` so it points to the
